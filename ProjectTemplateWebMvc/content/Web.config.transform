@@ -1,0 +1,19 @@
+﻿<configuration>
+	<configSections>
+		<sectionGroup name="moca">
+			<section name="settings" type="Moca.Config.MocaSectionHandler, Moca" />
+		</sectionGroup>
+	</configSections>
+	<system.web>
+		<pages>
+			<controls>
+				<add tagPrefix="moca" namespace="Moca.Web.UI" assembly="MocaWeb" />
+			</controls>
+		</pages>
+	</system.web>
+	<moca>
+    <settings>
+      <transaction type="local" />
+    </settings>
+  </moca>
+</configuration>
