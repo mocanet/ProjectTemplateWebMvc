@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\Moca.NETWebMvcProject.targets">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="content\App_Readme\Scripts\Stored Procedures\ELMAH_GetErrorsXml.sql">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tools\install.ps1">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\App_Readme\Elmah.sqldb.readme.txt" />
+    <Content Include="content\App_Readme\Scripts\Stored Procedures\ELMAH_GetErrorXml.sql" />
+    <Content Include="content\App_Readme\Scripts\Stored Procedures\ELMAH_LogError.sql" />
+    <Content Include="content\App_Readme\Scripts\Tables\ELMAH_Error.sql" />
+    <Content Include="content\My Project\AjaxMin.targets" />
+    <Content Include="content\My Project\MocaAssemblyInfo.vb" />
+    <Content Include="content\Properties\AjaxMin.targets" />
+    <Content Include="content\Properties\MocaAssemblyInfo.cs" />
+    <Content Include="content\Web.config.transform" />
+    <Content Include="content\Web.Hotfix.config.transform" />
+    <Content Include="content\Web.Main.config.transform" />
+    <Content Include="content\Web.Release.config.transform" />
+    <Content Include="tools\uninstall.ps1" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>8c2d58a9-1d14-4a9c-842f-9942319e0903</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>Moca.NETWebMvcProject</Id>
+    <Version>1.0.0-beta01</Version>
+    <Title>Moca.NET Project Template Web MVC</Title>
+    <Authors>MiYABiS</Authors>
+    <Owners>MiYABiS</Owners>
+    <Summary>Moca.NET Project Template Web MVC</Summary>
+    <Description>Moca.NET Project Template Web MVC</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://github.com/mocanet/ProjectTemplateWebMvc</ProjectUrl>
+    <LicenseUrl>https://opensource.org/licenses/MS-PL</LicenseUrl>
+    <Copyright>Copyright © 2015 MiYABiS All Rights Reserved.</Copyright>
+    <Tags>Moca.NET</Tags>
+    <IconUrl>https://avatars3.githubusercontent.com/u/14543303?s=256</IconUrl>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath>..\packages\NuProj.0.20.4-beta\tools\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
