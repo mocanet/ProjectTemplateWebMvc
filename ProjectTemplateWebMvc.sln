@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FB3CC6
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
-		..\MocaCore\.nuget\packages.config = ..\MocaCore\.nuget\packages.config
+		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "NuGet.Package", "NuGet.Package\NuGet.Package.nuproj", "{8C2D58A9-1D14-4A9C-842F-9942319E0903}"
