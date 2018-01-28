@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/c644wkfeqk33gvec?svg=true)](https://ci.appveyor.com/project/miyabis/projecttemplatewebform)
 [![NuGet](https://img.shields.io/nuget/v/Moca.NETWebMvcProject.svg)](https://www.nuget.org/packages/Moca.NETWebMvcProject/)
-[![NuGet](https://img.shields.io/nuget/vpre/Moca.NETWebMvcProject.svg)](https://www.nuget.org/packages/Moca.NETWebMvcProject/)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Moca.NETWebMvcProject.svg)](https://www.nuget.org/packages/Moca.NETWebMvcProject/)
 
 Moca.NET Project Template Web MVC
 
